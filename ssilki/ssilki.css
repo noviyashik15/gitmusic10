@@ -1,5 +1,4 @@
 * { margin: 0; padding: 0;
-/* background: linear-gradient(90deg, rgb(166, 181, 221), rgb(182, 232, 183)); */
 background-color: rgb(166, 220, 232);
 }
 .btn{ margin-bottom: 4rem; background-color: rgb(205, 243, 173); }
@@ -14,8 +13,12 @@ font-size: 1.2rem;
 align-items: center;
 border: 3px solid rgb(35, 101, 22);
 border-radius: 1rem;
-margin-right: 3rem;
+margin-right: 2rem;
 }
+/* .acebase{font-size: 1.3rem;} */
+
+.btkn{ border: 2px solid red; border-radius: 5px; color: green;}
+.btkn:hover{ color: blue; background-color: white;} 
 
 *{
     -webkit-user-select: none;

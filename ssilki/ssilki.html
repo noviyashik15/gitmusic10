@@ -4,21 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Перевод</title>
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
   rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-  crossorigin="anonymous"
-  />
+  crossorigin="anonymous" />
+  <link rel="stylesheet" href="vsplokno.css">
   <link rel="stylesheet" href="ssilki.css">
-  <link rel="icon" type="images/x-icon" href="atsicon.ico"/>
+  <link rel="icon" type="images/x-icon" href="../atsicon.ico"/>
 </head>
 <body>
 <div class="container-fluid text-center">
-<h1>Ссылки (перевод) и описание</h1>
+<h3>Ссылки (перевод) и описание</h3>
 <div class="row">
 <div class="col-1">
   
-  <button class="btn btn-primary" style="margin-top: 3rem;">
+  <button class="btn btn-primary" style="margin-top: 2rem;">
     <a href="https://lyrsense.com/ace_of_base/happy_nation" target="_blank" title="Перевод">Happy Nation</a>
   </button><br>
 
@@ -55,8 +54,10 @@ Billboard Awards. К тому же Биллборд подсчитал, что �
 И это всё при том, что в их родной Швеции альбом The Sign был признан худшим альбомом года. В то же время обновлённая специально для 
 американских слушателей версия Happy Nation (The Sign) с тиражом в 23 млн экземпляров дисков попадает в Книгу рекордов Гиннесса 
 как «самый кассовый дебютный альбом».
+<span><button class="btkn" id="open-modal-btn" title="Фото">Ace of Base</button></span>
+
 </div>
-<div class="yakida" style="margin-top: 1rem;">
+<div class="yakida" style="margin-top: .4rem;">
 «Yáki-Da» — шведская женская музыкальная поп-группа, состоящая из двух солисток Линды Шенберг и Мэри Кнутсен-Грин. Самым популярным 
 хитом дуэта является песня «I Saw You Dancing».
 Группа Yaki-Da образована в 1994 году в шведском городе Гётеборге. Название группы происходит от старинного валлийского тоста и 
@@ -64,7 +65,7 @@ Billboard Awards. К тому же Биллборд подсчитал, что �
 Дуэт был собран продюсером группы «Ace of Base» Юнасом Берггреном. Берггрен полностью спродюсировал 
 их первый альбом и написал все песни, кроме двух.
 </div>
-<div class="pupotext" style="margin-top: 1rem;">
+<div class="pupotext" style="margin-top: .4rem;">
 Э́нцо Гина́цци (итал. Enzo Ghinazzi), более известный под псевдонимом Пу́по (итал. Pupo, род. 11 сентября 1955, Латерина, Тоскана) — 
 итальянский певец и композитор. Помимо выступлений в Италии певец неоднократно гастролировал в странах Восточной Европы.
 Его карьера в качестве певца стартовала в 1975 году. Первый альбом «Как ты прекрасна» («Come sei bella») вышел в 1976 году. 
@@ -75,10 +76,25 @@ Billboard Awards. К тому же Биллборд подсчитал, что �
 </div></div></div>
 </div>
 
+<div class="modal" id="my-modal">
+  <div class="modal__box">
+    <button class="modal__close-btn" id="close-my-modal-btn">
+        <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z" fill="#333333" />
+        <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+        </svg>
+    </button>
+    <img src="aceofbase1.jpg" width="40%" alt="Нет фото" />
+    <img src="aceofbase2.jpg" width="50%" alt="Нет фото" /> <!-- <br><img src="aceofbase3.jpg" width="30%" alt="Нет фото" /> -->
+   </div>
+</div>
+
 <script
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
   crossorigin="anonymous"
  ></script>
-</body>
+ <script src="vsplokno.js"></script> 
+ <script src="vsploknob.js"></script> 
+ </body>
 </html>
 
