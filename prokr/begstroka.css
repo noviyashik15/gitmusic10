@@ -1,5 +1,5 @@
 .ticker { 
-  background-color: transparent;  
+  background-color: transparent;
   color: #000;
   box-sizing: border-box;
   position: absolute;
@@ -10,6 +10,7 @@
   border-radius: 12px;
   margin-top: -28px;
 }
+.ticker:hover{background-color: rgb(204, 243, 243);}
 .ticker__wrapper {
   display: inline-flex;
 }
