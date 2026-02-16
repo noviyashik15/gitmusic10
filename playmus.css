@@ -122,8 +122,6 @@ h2 {
 .play-button {
   font-size: 44px;
 }
-#zaonpp{position: absolute; z-index: 3;  /* text-align: center;   */
-padding-left: 11.7rem; padding-top: 5rem;
-}
+/* #zaonpp{position: absolute; z-index: 3; padding-left: 11.7rem; padding-top: 5rem; } */
 p{color: #fff;}
 
